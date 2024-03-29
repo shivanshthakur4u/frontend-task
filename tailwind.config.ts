@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Source Sans Pro", "sans-serif"],
+        fairPlay: ["Playfair Display"],
+      },
+      fontWeight: {
+        sans: "normal",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
