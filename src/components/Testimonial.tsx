@@ -1,18 +1,22 @@
-import React from 'react'
-import Card from './common/Card'
-import Image from 'next/image'
-import BgRed from "../../public/bg-dark-red.png"
-const Testimonial = () => {
-  return (
-    <div className='flex flex-col gap-20 sm:pt-[265px] pt-[100px] sm:px-[72px] px-8 relative sm:h-[160dvh] h-[80dvh]'>
-        
-      <h1 className='text-[#E62D2D] sm:text-[99px] text-4xl font-[689] sm:leading-[131.97px] tracking-[-1.5%]'> 
-      Testimonials
-      </h1>
-      <Image src={BgRed} className='absolute left-0 bottom-0 sm:h-[70%] h-[20%]  opacity-50' alt='bg-image-red' />
-      <Card />
-    </div>
-  )
-}
+import React from 'react';
+import Card from './common/Card';
+import TestimonialCardSlider from './TestimonialCardSlider';
 
-export default Testimonial
+const Testimonial = () => {
+
+  return (
+    <div className='flex flex-col sm:gap-20 gap-8 sm:pt-[155px] pt-[100px] relative sm:h-[145dvh] h-[80dvh]
+    6xl:h-[70dvh] 5xl:h-[78dvh] 4xl:h-[95dvh] 3xl:h-[90dvh] '>
+      <div className='bg-red-3 '></div>
+      <h1 className='text-[#E62D2D] sm:text-[99px] text-4xl font-[689] sm:leading-[131.97px] tracking-[-1.5%] 
+      xl:px-[7%] 2xl:px-[10.8%] 3xl:px-[15%] sm:px-[72px] px-8 4xl:px-[22%] 5xl:px-[32%] 6xl:px-[36.5%] 
+      '>
+        Testimonials
+      </h1>
+
+      <TestimonialCardSlider />
+    </div>
+  );
+};
+
+export default Testimonial;

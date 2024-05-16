@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Source Sans Pro", "sans-serif"],
+        sans: ["Source Sans Pro"],
         fairPlay: ["Playfair Display"],
       },
       fontWeight: {
@@ -20,7 +20,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
+      screens: {
+        '3xl':'1800px',
+        '4xl':'2000px',
+        '5xl':'3000px',
+        '6xl':'4000px',
+      }
     },
+   
   },
   plugins: [],
 };

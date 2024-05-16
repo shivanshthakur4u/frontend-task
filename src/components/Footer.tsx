@@ -5,20 +5,21 @@ import TwitterIcon from "../../public/Twitter.svg"
 import InstagramIcon from "../../public/Instagram.svg"
 import Image from 'next/image'
 const Footer = () => {
-    const FooterNavLink = [{
-        name: "Home page",
-        url: "/"
-    },
+    const FooterNavLink = [
+    //     {
+    //     name: "Home page",
+    //     url: "/"
+    // },
     {
         name: "About us",
         url: "/"
     },
     {
-        name: "Book  audit",
+        name: "Book  Audit",
         url: "/"
     },
     {
-        name: "Contact us",
+        name: "Contact Us",
         url: "/"
     },
     {
@@ -50,24 +51,27 @@ const Footer = () => {
     ]
 
     return (
-        <footer className='md::p-20 sm:p-12 p-8  bg-[#171717] mt-4 flex flex-col gap-8'>
-            <div className='flex justify-between flex-col items-center md:flex-row'>
-                <div className='text-center md:text-left'>
+        <footer className='md::py-20 sm:py-12 py-8  bg-[#171717] mt-4 flex flex-col gap-4 
+        xl:px-[7%] 2xl:px-[10.8%] 3xl:px-[15%] 
+        4xl:px-[22%] 5xl:px-[32%] 6xl:px-[36.5%]'>
+            <div className='flex justify-between flex-col md:items-center items-start md:flex-row'>
+                <div className='text-start m-4 pb-6 sm:pb-0'>
                     <Link href={"/"}>
-                        <h4 className='text-white text-4xl md:text-5xl font-normal leading-tight md:leading-normal tracking-wider'> Logo</h4>
+                        <h4 className='text-white text-4xl md:text-5xl font-normal 
+                        leading-tight md:leading-normal tracking-wider'> Logo</h4>
                     </Link>
                 </div>
-                <div className='flex flex-col md:flex-row gap-4 md:gap-12 sm:mt-0 mt-4'>
+                <div className='grid sm:grid-cols-5 grid-cols-2  gap-x-9 gap-y-5 sm:gap-8 sm:px-0 px-4'>
                     {
                         FooterNavLink?.map((nav, index) => (
                             <Link href={nav?.url} key={`${nav?.name}${index}`}
-                            className='text-white text-lg md:text-xl font-medium leading-normal tracking-wide'>
+                            className='text-white font-fairPlay sm:text-xl text-[22px] font-medium leading-normal tracking-wide'>
                                 {nav?.name}
                             </Link>
                         ))
                     }
                 </div>
-                <div className='flex gap-4 relative  sm:mt-0 mt-4'>
+                <div className='flex gap-4 relative  sm:mt-0 mt-4 items-center justify-center self-center py-5'>
                     {
                         FooterSocialIcons.map((social, index) => (
                             <Link href={social?.url} key={index}>

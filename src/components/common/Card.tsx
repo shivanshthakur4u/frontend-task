@@ -3,7 +3,7 @@ import React from 'react'
 import TestimonialImage from "../../../public/Testimonial.svg"
 const Card = () => {
     return (
-        <div className='bg-[#171717] rounded-[18px] sm:p-12 p-6 flex flex-col z-30'>
+        <div className='bg-[#171717] rounded-[18px] sm:p-12 p-6 flex flex-col z-30 max-w-[1100px]'>
             <div className='relative flex gap-10'>
                 <Image src={TestimonialImage} alt='testimonial-image' className='sm:w-[14%] w-[25%]' />
                 <h2 className='sm:text-[62px] text-xl text-[#E62D2D] tracking-[-0.5%]

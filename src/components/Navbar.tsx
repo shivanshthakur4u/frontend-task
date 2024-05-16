@@ -14,9 +14,9 @@ const Navbar = () => {
     },
     ]
     return (
-        <div className='bg-[#0D0D0D] flex justify-between md:pt-12 pt-8 md:px-[72px] px-8 md:pb-6 pb-4 w-full'>
+        <div className='bg-[#0D0D0D] flex justify-between md:pt-12 pt-8 md:px-[72px] px-8 md:pb-6 pb-4 w-full fixed z-50 max-h-[119px]'>
             <Link href={"/"}>
-            <div className='rounded-[17px] w-11 h-11 bg-[#E62D2D] cursor-pointer' />
+                <div className='rounded-[17px] w-11 h-11 bg-[#E62D2D] cursor-pointer ' />
             </Link>
             <div className='flex md:gap-12 gap-8 items-center'>
                 {

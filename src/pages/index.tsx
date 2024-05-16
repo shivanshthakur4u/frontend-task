@@ -14,7 +14,7 @@ const playfair = Playfair_Display({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div
-      className={`flex flex-col w-full h-full ${playfair.className}`}
+      className={`flex flex-col w-full min-h-[100dvh] ${playfair.className}`}
     >
       <Navbar />
       <HeroSection />

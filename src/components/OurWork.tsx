@@ -6,7 +6,9 @@ import Nike from "../../public/Nike.png";
 
 const OurWork = () => {
     return (
-        <div className='w-full h-full flex flex-col sm:gap-10 gap-6 bg-[#171717] sm:mr-3 sm:px-[72px] px-8'>
+        <div className='w-full h-full flex flex-col sm:gap-10 gap-6
+         bg-[#171717] sm:mr-3 sm:px-[72px] px-8 xl:px-[7%] 2xl:px-[10.8%] 3xl:px-[15%] 
+         4xl:px-[23%] 5xl:px-[32%] 6xl:px-[36.5%] pb-6 pt-2'>
             <div className='flex flex-col gap-3'>
                 <h2 className='text-white sm:text-[99px] sm:leading-[131.97px] text-4xl font-semibold pt-4'>
                     OUR <br /> WORK.
