@@ -5,7 +5,7 @@ import TestimonialCardSlider from './TestimonialCardSlider';
 const Testimonial = () => {
 
   return (
-    <div className='flex flex-col sm:gap-20 gap-8 sm:pt-[155px] pt-[100px] relative sm:h-[145dvh] h-[80dvh]
+    <div className='flex flex-col sm:gap-20 gap-8 sm:pt-[120px] pt-[100px] relative sm:h-[145dvh] h-[90dvh]
     6xl:h-[70dvh] 5xl:h-[78dvh] 4xl:h-[95dvh] 3xl:h-[90dvh] '>
       <div className='bg-red-3 '></div>
       <h1 className='text-[#E62D2D] sm:text-[99px] text-4xl font-[689] sm:leading-[131.97px] tracking-[-1.5%] 

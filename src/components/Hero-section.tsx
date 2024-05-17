@@ -4,7 +4,7 @@
 import Button from './common/Button';
 const HeroSection = () => {
     return (
-        <div className='flex flex-col w-full min-h-[100dvh] items-center justify-center hero_section'>
+        <div className='flex flex-col relative w-full min-h-[100dvh] items-center justify-center hero_section'>
             {/* <Image src={BgBlue} alt='bg-blue' className='top-0 absolute  left-0 rotate-[37.5] bottom-60'/> */}
             <div className='bg-blue'></div>
             <div className='bg-red'></div>
